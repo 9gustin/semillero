@@ -1,0 +1,6 @@
+{
+  "name": "semillero",
+  "version": "0.1.0",
+  "description": "Framework para arrancar y llevar mini apps y pruebas de concepto con Claude Code: de la idea a una arquitectura y un plan por etapas, con preferencias configurables por usuario.",
+  "author": { "name": "9gustin" }
+}
