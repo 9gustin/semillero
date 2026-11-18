@@ -19,7 +19,7 @@ Si no está claro, preguntá en una línea: "¿Esto es para todos los proyectos 
 
 ## 2. Hacé el cambio
 
-1. Editá la **fuente** en `~/projects/semillero` (desde Windows: `\\wsl.localhost\ubuntu\home\v9gustin\projects\semillero`), nunca la copia instalada en `~/.claude/skills`.
+1. Editá la **fuente**: el repo de semillero que clonó el usuario (por defecto `~/projects/semillero`; si el proyecto vive en WSL y estás en Windows, por la ruta `\\wsl.localhost\...`). Nunca la copia instalada en `~/.claude/skills`.
 2. Cambiá lo mínimo que haga cumplir la corrección, en el skill, plantilla o convención que corresponde. Si una regla vieja la contradice, sacala: que no queden dos reglas peleadas.
 3. Si la corrección pide un paso nuevo (por ejemplo, una revisión al cerrar cada etapa), sumalo donde ocurre ese momento, no en una sección aparte.
 4. Sumá una línea a `APRENDIZAJES.md` (raíz del repo): fecha, qué pidió el usuario con sus palabras y qué archivo cambió.
@@ -28,8 +28,9 @@ Si no está claro, preguntá en una línea: "¿Esto es para todos los proyectos 
 ## 3. Instalalo
 
 1. Commit en el repo de semillero: `Aprende: <resumen>`.
-2. Reinstalá: `wsl.exe -d Ubuntu -- bash ~/projects/semillero/instalar.sh`.
-3. Si hay un proyecto abierto en esta sesión, aplicá la corrección también ahí (por ejemplo, reescribir el plan con el formato nuevo) solo si el usuario quiere.
+2. Reinstalá con `bash <repo>/instalar.sh` (desde Windows con el repo en WSL: `wsl.exe -d Ubuntu -- bash ~/projects/semillero/instalar.sh`).
+3. Si el cambio afecta cómo se usa el framework, actualizá también el `README.md` del repo.
+4. Si hay un proyecto abierto en esta sesión, aplicá la corrección también ahí (por ejemplo, reescribir el plan con el formato nuevo) solo si el usuario quiere.
 
 ## Reglas
 
