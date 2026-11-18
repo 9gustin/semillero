@@ -57,7 +57,7 @@ No hace falta nombrar el skill: Claude lo elige por lo que decís.
 Necesitás [Claude Code](https://claude.com/claude-code) (CLI, app de escritorio o IDE).
 
 ```bash
-git clone <este repo> ~/projects/semillero
+git clone https://github.com/9gustin/semillero.git ~/projects/semillero
 bash ~/projects/semillero/instalar.sh
 ```
 
